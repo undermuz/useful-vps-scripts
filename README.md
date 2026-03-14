@@ -14,7 +14,7 @@ Initializes a new VPS with essential security configurations:
 
 **Usage:**
 ```bash
-sudo ./init.sh
+./init.sh
 ```
 *Note: Edit the variables at the top of the script (NEW_USER, SSH_PORT) before running.*
 
@@ -27,7 +27,7 @@ Performs a comprehensive security audit of your VPS:
 
 **Usage:**
 ```bash
-./security-checkup.sh
+sudo ./security-checkup.sh
 ```
 
 ### `ssh-tools.sh`
